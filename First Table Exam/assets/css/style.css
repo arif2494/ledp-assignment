@@ -1,0 +1,51 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	background: #12c2e9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#f64f59,
+		#c471ed,
+		#12c2e9
+	); /*  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+}
+.firstcol {
+	background-color: #0077b6;
+}
+.secondcol {
+	background-color: #15664f;
+}
+caption {
+	font-size: 3rem;
+	color: aqua;
+}
+#sampletable {
+	height: 700px;
+	color: white;
+	width: 50%;
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+#sampletable thead th {
+	font-size: 2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 8px;
+	background-color: #003049;
+	border-bottom: 3px solid #f8edeb;
+	text-align: left;
+	color: white;
+}
+#sampletable tbody td {
+	font-size: 1.3rem;
+	padding: 6px;
+	transition: .3s ease-out;
+	border-bottom: 3px solid #f8edeb;
+}
+#sampletable tr:hover {
+	background-color: #ffb703;
+	color: black;
+	transition: .3s ease-in;
+}
+/* #sampletable tr:nth-child(even) {
+	background-color: #8338ec;
+} */
