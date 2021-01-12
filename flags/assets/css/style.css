@@ -1,0 +1,145 @@
+body {
+	font-family: 'Bangers', cursive;
+	background: #360033; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0b8793, #360033); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#0b8793,
+		#360033
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* *gradiant he heading */
+h2 {
+	font-weight: 600;
+	font-size: 72px;
+	background: -webkit-linear-gradient(#d72638, #c5f1f4, #480ca8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* *Philippines flag */
+.flag3 {
+	margin: 25px auto;
+	width: 700px;
+	height: 400px;
+}
+.pbox1 {
+	background-color: #0038a8;
+	height: 200px;
+	width: 700px;
+}
+.pbox2 {
+	background-color: #ce1126;
+	height: 200px;
+	width: 700px;
+}
+.triangle-right {
+	border-top: 200px solid transparent;
+	border-left: 250px solid #fff;
+	border-bottom: 200px solid transparent;
+	position: relative;
+	top: -400px;
+	left: 0;
+}
+.star1 {
+	position: absolute;
+	top: -150px;
+	left: -240px;
+	height: 50px;
+	width: 50px;
+}
+.star2 {
+	position: absolute;
+	left: -240px;
+	bottom: -150px;
+	height: 50px;
+	width: 50px;
+}
+.star3 {
+	position: absolute;
+	top: -25px;
+	left: -80px;
+	height: 50px;
+	width: 50px;
+}
+.sun {
+	position: absolute;
+	top: -50px;
+	left: -210px;
+	height: 100px;
+	width: 100px;
+}
+/* *Flag of UAE */
+.flag1 {
+	margin: 25px auto;
+	width: 700px;
+	height: 400px;
+}
+.ubox1 {
+	background-color: #ff0000;
+	height: 400px;
+	width: 175px;
+}
+.ubox2 {
+	background-color: #00742b;
+	height: 133.33px;
+	width: 525px;
+	position: relative;
+	top: -400px;
+	left: 175px;
+}
+.ubox3 {
+	background-color: #fff;
+	height: 133.33px;
+	width: 525px;
+	position: relative;
+	top: -400px;
+	left: 175px;
+}
+.ubox4 {
+	background-color: #000;
+	height: 133.33px;
+	width: 525px;
+	position: relative;
+	top: -400px;
+	left: 175px;
+}
+/* *Flag of CANADA */
+.flag2 {
+	margin: 25px auto;
+	width: 700px;
+	height: 400px;
+}
+.cbox1 {
+	background-color: #d62418;
+	height: 400px;
+	width: 175px;
+}
+.cbox2 {
+	background-color: white;
+	height: 400px;
+	width: 350px;
+	position: relative;
+	top: -400px;
+	left: 175px;
+}
+.cbox3 {
+	background-color: #d62418;
+	height: 400px;
+	width: 175px;
+	position: relative;
+	top: -800px;
+	left: 525px;
+}
+.cbox2 img {
+	margin-top: 50px;
+	margin-left: 25px;
+	height: 300px;
+	width: 300px;
+}
+/* *copyright */
+#copyright .bg-dark {
+	background-color: black !important;
+}
+#copyright p {
+	font-size: 2rem;
+}
